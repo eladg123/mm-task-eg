@@ -1,5 +1,7 @@
 {
   "title": "ברוכים הבאים לחנות שלי",
   "recommmandToSelectDate": ":לחץ לבחירת תאריך ואנו נראה לך אילו מוצרים ניתן לאסוף בתאריך זה",
-  "noProductsForThisDateErr": "בתאריך זה לא ניתן לאסוף שום פריט"
+  "noProductsForThisDateErr": "בתאריך זה לא ניתן לאסוף שום פריט",
+  "nameLabel":"שם",
+  "priceLabel":"מחיר"
 }

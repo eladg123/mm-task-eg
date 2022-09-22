@@ -1,5 +1,6 @@
 import React from 'react'
 import { Product } from '../types/Product'
+import dictionary from '../dictionary/dictionary.json'
 
 interface Props {
   availableProducts: Product[] | []
@@ -11,8 +12,8 @@ const ProductsGrid = ({ availableProducts }: Props) => {
       <table className="text-xs text-gray-700 bg-gray-50 dark:bg-gray-700">
         <thead>
           <tr>
-            <th className="py-3 px-6 text-2xl">שם</th>
-            <th className="py-3 px-6 text-2xl">מחיר</th>
+            <th className="py-3 px-6 text-2xl">{dictionary.nameLabel}</th>
+            <th className="py-3 px-6 text-2xl">{dictionary.priceLabel}</th>
           </tr>
         </thead>
         <tbody>
