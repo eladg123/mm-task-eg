@@ -1,0 +1,6 @@
+.navbar {
+  height: 100px;
+  background-image: linear-gradient(80deg, #71bbd1, #69f1e6);
+  text-align: center;
+  margin: 0;
+}
